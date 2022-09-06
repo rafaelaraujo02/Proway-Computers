@@ -1,0 +1,79 @@
+*{
+  --blue: rgb(6, 6, 171);
+  --orange: rgb(255, 115, 0);
+}
+
+.main-header {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    cursor: default;
+}
+
+.main-header__title--blue {
+
+    color: var(--blue);
+    font-size:60px;
+}
+
+.main-header__title--orange {
+
+  color: var(--orange);
+    font-size:60px;
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.main-header__menu a {
+    padding: 10px 10px;
+    color: rgb(86, 86, 86);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    color: var(--blue);
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+    transform: scale(0.8);
+    align-items: flex-end;
+    margin-right: -100px;
+}
+
+.badge-carrinho {
+  background-color: darkblue;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.container-menu .fa-brands{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.container-menu .fa-brands:hover{
+  transition: 0.5s;
+  transform: scale(1.3);
+}
+

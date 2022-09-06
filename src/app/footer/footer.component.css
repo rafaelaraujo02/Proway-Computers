@@ -1,0 +1,70 @@
+.footer {
+  background-color: lightgray;
+  color: gray;
+  font-size: 18px;
+  display: block;
+  position: relative;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(247, 247, 247);
+  font-weight: bold;
+  padding: 20px;
+  color: gray;
+}
+
+.footer__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004a76;
+  margin-bottom: 5px;
+}
+
+.footer__about-text {
+  width: 400px;
+  text-align: justify;
+}
+
+
+.footer i {
+  color: #ff7000;
+}
+
+.footer li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.footer-email i:hover{
+  color: darkblue;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.footer-whatsapp i:hover{
+  color: darkblue;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.footer-linkedin{
+  width: fit-content;
+}
+.footer-linkedin i:hover{
+  color: darkblue;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+address span{
+  padding-left: 5px;
+}
