@@ -1,3 +1,4 @@
+import { NgxMaskModule } from 'ngx-mask';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -14,6 +15,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     ContatoRoutingModule,
     ReactiveFormsModule,
+    NgxMaskModule.forRoot(),
+
   ]
 })
 export class ContatoModule { }

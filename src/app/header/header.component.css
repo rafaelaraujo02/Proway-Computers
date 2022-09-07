@@ -62,9 +62,10 @@
 
 .badge-carrinho {
   background-color: darkblue;
-  padding: 5px 10px;
+  padding: 2px 8px 2px;
   border-radius: 4px;
   color: white;
+  margin-left: 2px;
 }
 
 .container-menu .fa-brands{
